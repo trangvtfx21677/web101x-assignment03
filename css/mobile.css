@@ -1,0 +1,95 @@
+@media only screen and (max-width: 768px) {
+  .nav-text,
+  #nav-bar .avatar {
+    display: none;
+  }
+
+  #nav-bar .container {
+    display: block;
+  }
+
+  #nav-bar a:nth-child(1) {
+    border-left: none;
+    padding-top: 15px;
+  }
+
+  #nav-bar a {
+    border-right: none;
+    padding: 0 50px 15px;
+  }
+
+  #job-info .container {
+    width: auto;
+  }
+
+  section > .container {
+    width: auto;
+  }
+
+  .certificate-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .group1-2 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .certificate-group1,
+  .certificate-group2,
+  .certificate-group3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+    border: none;
+    margin-bottom: 30px;
+    padding: 0px;
+  }
+
+  .certificate-group1,
+  .certificate-group2 {
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .pj-details-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    align-items: start;
+    padding-left: 20px;
+  }
+
+  .pj-details-1 .year {
+    align-self: start;
+  }
+
+  .all-projects {
+    width: auto;
+  }
+
+  .project-info {
+    margin-bottom: 30px;
+  }
+
+  #footer p {
+    display: none;
+  }
+
+  /* Project Charter */
+  .container-flex {
+    flex-direction: column;
+  }
+
+  .goals,
+  .team,
+  .scopes,
+  .primary {
+    height: fit-content;
+  }
+}

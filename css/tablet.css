@@ -1,0 +1,58 @@
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .nav-text h2,
+  .nav-text span,
+  .avatar-img {
+    display: none;
+  }
+
+  section > .container {
+    width: auto;
+  }
+
+  .certificate-group1,
+  .certificate-group2,
+  .certificate-group3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .certificate-group1,
+  .certificate-group3 {
+    padding-right: 20px;
+  }
+
+  .certificate-group2 {
+    padding-left: 20px;
+  }
+
+  .all-projects {
+    width: auto;
+  }
+
+  .pj-details-1 {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+  }
+
+  #project p {
+    margin: 0;
+  }
+
+  #project .year {
+    grid-row: 1/3;
+  }
+
+  /* Project Charter */
+  .container-flex {
+    flex-direction: column;
+  }
+
+  .goals,
+  .team,
+  .scopes,
+  .primary {
+    height: fit-content;
+  }
+}
