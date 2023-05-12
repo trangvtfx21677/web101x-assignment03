@@ -27,7 +27,6 @@ section > .container {
   text-align: center;
   color: #fff;
   height: 500px;
-  margin: 0px 50px;
 }
 
 .banner-image {
@@ -49,7 +48,6 @@ section > .container {
 /* ĐIỀU CHỈNH THANH NAV-BAR */
 #nav-bar {
   text-align: center;
-  margin: 0 50px;
 }
 
 #nav-bar .container {
@@ -130,7 +128,7 @@ i {
 
 #about {
   background: none;
-  margin: 0px 50px;
+
   /* display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 0; */
@@ -295,9 +293,9 @@ i {
 }
 
 /* CHỨNG CHỈ - GIẢI THƯỞNG */
-#certificate {
+/* #certificate {
   margin: 0px 50px;
-}
+} */
 
 #certificate img {
   width: 100%;
@@ -459,9 +457,9 @@ i {
 }
 
 /* Căn chỉnh phần Liên hệ */
-#footer {
+/* #footer {
   margin: 0 50px;
-}
+} */
 
 #footer .container {
   width: 100%;
@@ -640,7 +638,6 @@ input:focus {
   top: 50%;
 }
 
-.back:link,
 .back:hover {
   background-color: #d44262bb;
 }
